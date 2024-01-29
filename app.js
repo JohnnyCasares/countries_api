@@ -40,12 +40,19 @@ app.get(
             });
     });
 
-//get by iso
+//get by iso alpha 3 or alpha 2
 app.get(
-    "/countries/:iso",
+    "/countries/:alpha",
     (req, res)=>{
-        const iso = req.params.iso.toUpperCase(); 
-        if(iso.length == 3){
+        const iso = req.params.alpha.toLowerCase();
+        if(iso.length == 2){
+            countriesCollection
+            .findOne({alpha2:iso})
+            .then((country)=>{res.status(200).json(country)})
+            .catch((err)=>res.status(500).json({error: 'Could not find document'}));
+            
+        }
+        else if(iso.length == 3){
             countriesCollection
             .findOne({alpha3:iso})
             .then((country)=>{res.status(200).json(country)})
@@ -58,6 +65,18 @@ app.get(
 
     }
 
+);
+
+
+//developer endpoints
+
+//update many
+
+app.patch(
+    '/countries/:alpha3',
+    (req, res)=>{
+        
+    }
 );
 
 
