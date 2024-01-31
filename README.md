@@ -18,4 +18,4 @@
 ### https://unstats.un.org/unsd/methodology/m49/#geo-regions
 ### Country phone codes
 ### https://www.worldometers.info/country-codes/
-###### Data was collected using Microsoft Power Automate to retrieve some values from databales from the internet.
+###### Data was collected using Microsoft Power Automate to retrieve some values from data tables from the internet.
