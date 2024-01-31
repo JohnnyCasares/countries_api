@@ -9,6 +9,7 @@
 #### Img 64x64 (URI String)
 #### Img 128x128 (URI String)
 
+ 
 # Sources:
 
 ### Names, alpha 2, alpha 3 and images
@@ -17,3 +18,4 @@
 ### https://unstats.un.org/unsd/methodology/m49/#geo-regions
 ### Country phone codes
 ### https://www.worldometers.info/country-codes/
+###### Data was collected using Microsoft Power Automate to retrieve some values from databales from the internet.
