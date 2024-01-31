@@ -1,13 +1,13 @@
 # Countries API
 ### This is my first API. The model of a country consists of:
-#### Country Name
-#### ISO Alpha 2
-#### ISO Alpha 3
-#### ISO M49 numeric code
-#### Phone Code
-#### Img 32x32
-#### Img 64x64
-#### Img 128x128
+#### Country Name (String)
+#### ISO Alpha 2 (String)
+#### ISO Alpha 3 (String)
+#### ISO M49 numeric code (Int32)
+#### Phone Code (String)
+#### Img 32x32 (URI String)
+#### Img 64x64 (URI String)
+#### Img 128x128 (URI String)
 
 # Sources:
 
