@@ -67,7 +67,7 @@ app.get(
                     .then((country) => { res.status(200).json(country) })
                     .catch((err) => res.status(500).json({ error: 'Could not find document' }));
             } else {
-                res.status(500).json({ error: 'The official ISO 4217 standard specifies three-letter (Alpha-3) & two-letter (Alpha-2) codes for currencies worldwide' })
+                res.status(500).json({ error: 'The official ISO standard specifies a three-letter (Alpha-3): closely related to the country name\n & two-letter (Alpha-2): recommended for general-purpose code' })
             }
         }
 
