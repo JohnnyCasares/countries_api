@@ -9,6 +9,8 @@
 #### Img 64x64 (URI String)
 #### Img 128x128 (URI String)
 
+# Technologies:
+### I used Javascript, Node JS, Express JS, MongoDB, and MS Power Automate
  
 # Sources:
 
